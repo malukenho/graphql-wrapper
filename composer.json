@@ -1,0 +1,36 @@
+{
+    "name":              "malukenho/graphql-wrapper",
+    "description":       "A small wrapper around webonyx/graphql-php",
+    "type":              "library",
+    "license":           "MIT",
+    "homepage":          "https://github.com/malukenho/graphql-wrapper",
+    "keywords":          [
+        "graphql",
+        "wrapper",
+        "oop"
+    ],
+    "authors": [
+        {
+            "name":     "Jefersson Nathan",
+            "email":    "malukenho@phpse.net",
+            "homepage": "http://github.com/malukenho"
+        }
+    ],
+    "require": {
+        "php": "^7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit":     "^6.5",
+        "webonyx/graphql-php": "^0.11.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Malukenho\\GrapQL\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MalukenhoTest\\GraphQL\\": "tests/"
+        }
+    }
+}
